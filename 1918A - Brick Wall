@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int testcases;
+    cin>>testcases;
+    while(testcases--)
+    {
+        int a,b;
+        cin>>a>>b;
+        int ans=abs(b/2);
+        cout<<a*ans<<endl;
+    }
+}
