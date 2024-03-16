@@ -1,0 +1,35 @@
+#include<bits/stdc++.h>
+using namespace std;
+void solve()
+{
+    int n;
+    cin>>n;
+    if(n%2==1)
+    {
+        cout<<"NO"<<endl;
+        return;
+    }
+    else
+    {
+        cout<<"YES"<<endl;
+    }
+    int i=1;
+    for(;i<=n/2;i++)
+    {
+        if(i%2==0)
+            cout<<"BB";
+        else
+            cout<<"AA";
+    }
+      cout<<endl;
+}
+int main()
+{
+    int testcases;
+    cin>>testcases;
+    while(testcases--)
+    {
+        solve();
+        
+    }
+}
